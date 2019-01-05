@@ -1,20 +1,6 @@
 <!-- CONTACT BAR -->
 <!-- CONTACT BAR -->
 <!-- CONTACT BAR -->
-<div id="contact-bar">
-  <a href="tel:+1-604-396-4166">
-    <i class="fa fa-phone-square" aria-hidden="true"></i> +1 (604) 396-4166
-  </a>
-  <!--<span class="sm-links">
-    <a class="sm-link"><i class="fa fa-facebook-square"></i></a>
-    <a class="sm-link"><i class="fa fa-twitter-square"></i></a>
-    <a class="sm-link"><i class="fa fa-google-plus-square"></i></a>
-    <a class="sm-link"><i class="fa fa-instagram"></i></a>
-    <a class="sm-link"><i class="fa fa-youtube-square"></i></a>
-    <a class="sm-link"><i class="fa fa-vimeo-square"></i></a>
-    <a class="sm-link"><i class="fa fa-linkedin-square"></i></a>
-  </span>-->
-</div>
 
 <!-- SECONDARY NAVIGATION -->
 <!-- SECONDARY NAVIGATION -->
@@ -76,9 +62,7 @@
 <!-- FOOTER -->
 <a href="/corporate-reel" class="to-reel">
 <footer id="contact-us-now" class="container-fluid" onclick="fullScreenVideo()">
-  EXPERIENCE
-  <img src="/img/play.png" class="play">
-  EVERYTHING
+  <p>Conquer Innovate Prosper</p>
   <!--<span class="sm-links">
     <a class="sm-link"><i class="fa fa-linkedin-square"></i></a>
     <a class="sm-link"><i class="fa fa-vimeo-square"></i></a>

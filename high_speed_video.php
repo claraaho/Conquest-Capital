@@ -103,7 +103,6 @@
 	</div>
    <div class="services">
   </div>
-  <?php include 'bars.php'; ?>
 	<div class="c-btn-wrapper">
 	  <h5>Want to learn more?</h5>
 	  <a href="/our-company#contact-us-now">

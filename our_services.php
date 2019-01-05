@@ -49,7 +49,7 @@
         </a>
       </div>
     </div>
-    <a href="/corporate-reel">
+    <a href="/our-company">
       <div class="high-speed-btn" style="display:inline-block;margin-top:0;">
         <span style="inline-block">Watch our Corporate Reel</span> <i class="fa fa-angle-right" aria-hidden="true"></i>
       </div>
