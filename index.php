@@ -77,7 +77,7 @@
       if (in_array('team', $uri)) include 'careers.php';
       else if (in_array('corporate-reel', $uri)) include 'corporate_reel.php';
       else if (in_array('login', $uri)) include 'login.php';
-      else if (in_array('high-speed-videos', $uri)) include 'high_speed_video.php';
+      else if (in_array('mission-page', $uri)) include 'mission_page.php';
       else if (in_array('our-portfolio', $uri)) include 'our_portfolio.php';
       else if (in_array('our-services', $uri)) include 'our_services.php';
       else if (in_array('our-company', $uri)) include 'our_company.php';
@@ -176,7 +176,7 @@
           });
 
 
-          if(window.location.pathname.substr(1) == 'high-speed-videos' 
+          if(window.location.pathname.substr(1) == 'mission-page' 
               || window.location.pathname.substr(1) == 'our-services'
               || window.location.pathname.substr(1) == 'our-company') {
             $(function() {

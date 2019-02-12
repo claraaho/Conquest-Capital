@@ -191,7 +191,7 @@ body {
   padding-top: 0;
   box-shadow: none;
   background: rgba(0, 0, 0, 0.7);
-  position: fixed;
+  position: absolute;
   width: 100%;
   top: 0;
   border-radius: 0;
@@ -1080,7 +1080,7 @@ body {
 /* FOOTER */
 /* FOOTER */
 footer {
-  background: rgba(0, 0, 0, 0.7);
+  background: black;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   display: -webkit-box;
@@ -1100,7 +1100,6 @@ footer {
   border-top: 1px solid #FFF;
   border-left: 0;
   border-right: 0;
-  cursor: pointer;
   letter-spacing: 1px;
   -webkit-transition: all 250ms linear 0s;
   -moz-transition: all 250ms linear 0s;
@@ -1795,3 +1794,17 @@ svg .icon {
   font-family: FontAwesome; }
 
 /*# sourceMappingURL=main.css.map */
+
+/* Conquest Homepage */
+
+.home-hero-vid {
+  object-fit: fill;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0px;
+}
+
+.navbar-nav {
+  margin-top: 2.5rem;
+}

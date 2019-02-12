@@ -193,8 +193,47 @@ body {
         #landing-page .learn-wrapper .learn-btn {
           font-size: 2rem; } }
 
-.first-block {
-  padding-bottom: 2.2rem; }
+.mission-page .first-block {
+  background: url('./../img/conquest/mission-hero-min.jpeg');
+  height: 100vh;
+  background-size: cover; 
+  background-attachment: fixed;
+}
+
+.mission-page .second-block {
+  background: url('./../img/conquest/mission-skyline-min.jpg');
+  height: 600px;
+  background-size: cover; 
+  background-attachment: fixed;
+}
+
+.mission-page .container-fluid {
+  padding: 8rem 5rem;
+}
+
+.mission-page h2 {
+  margin-bottom: 5rem;
+}
+
+.mission-page p {
+  margin-bottom: 2rem;
+}
+
+.mission-page ul {
+  text-align: left;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+  font-size: 1.5rem;
+}
+
+.hero-overlay {
+  background: rgba(0, 0, 0, 0.5);
+  background: linear-gradient(black, 99.5%, white);
+  width: 100%;
+  height: 100%;
+  opacity: 0.2;
+}
 
 .four-k-button {
   width: 150px;
@@ -290,7 +329,7 @@ body {
   box-shadow: none;
   /* background: rgba(0, 0, 0, 0.7); */
   background: transparent;
-  position: fixed;
+  position: absolute;
   width: 100%;
   top: 0;
   border-radius: 0;
@@ -964,23 +1003,19 @@ nav#service-nav {
     padding: 0.7rem; }
 
 .next {
-  text-align: center;
-  padding-top: 72px;
-  background: rgba(0, 0, 0, 0.91); }
+  text-align: center; }
   @media screen and (min-width: 1300px) {
     .next .container:first-of-type {
       width: 1300px; } }
   .next h1 {
     font-size: 4rem;
     font-family: AvenirNextDemi, sans-serif;
-    margin-bottom: 1.9rem;
-    color: white; }
+    margin-bottom: 1.9rem; }
   .next p {
     font-family: AvenirNextUltraLight, sans-serif;
     line-height: 180%;
     font-size: 20px;
-    margin-bottom: 0.9rem;
-    color: white; }
+    margin-bottom: 0.9rem;}
   .next .about-us-grid {
     margin-top: -7px;
     margin-bottom: 6.5rem; }
@@ -1404,7 +1439,7 @@ nav#service-nav {
 /* FOOTER */
 /* FOOTER */
 footer {
-  background: rgba(0, 0, 0, 0.7);
+  background: black;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   display: -webkit-box;
@@ -1424,7 +1459,6 @@ footer {
   border-top: 1px solid #FFF;
   border-left: 0;
   border-right: 0;
-  cursor: pointer;
   letter-spacing: 1px;
   -webkit-transition: all 250ms linear 0s;
   -moz-transition: all 250ms linear 0s;
@@ -2496,3 +2530,17 @@ svg .icon {
     margin: auto; } }
 
 /*# sourceMappingURL=main.css.map */
+
+/* Conquest Homepage */
+
+.home-hero-vid {
+  object-fit: fill;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0px;
+}
+
+.navbar-nav {
+  margin-top: 2.5rem;
+}

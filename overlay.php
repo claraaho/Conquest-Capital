@@ -60,20 +60,6 @@
 <!-- FOOTER -->
 <!-- FOOTER -->
 <!-- FOOTER -->
-<a href="/corporate-reel" class="to-reel">
-<footer id="contact-us-now" class="container-fluid" onclick="fullScreenVideo()">
-  <p>Conquer Innovate Prosper</p>
-  <!--<span class="sm-links">
-    <a class="sm-link"><i class="fa fa-linkedin-square"></i></a>
-    <a class="sm-link"><i class="fa fa-vimeo-square"></i></a>
-    <a class="sm-link"><i class="fa fa-youtube-square"></i></a>
-    <a class="sm-link"><i class="fa fa-instagram"></i></a>
-    <a class="sm-link"><i class="fa fa-google-plus-square"></i></a>
-    <a class="sm-link"><i class="fa fa-twitter-square"></i></a>
-    <a class="sm-link"><i class="fa fa-facebook-square"></i></a>
-  </span>
-  <span class="engage">
-    <a href=""><i class="fa fa-comment-o" aria-hidden="true"></i><b>CONNECT</b></a>
-  </span> -->
+<footer id="contact-us-now" class="container-fluid">
+  <p>Innovate Conquer Prosper</p>
 </footer>
-</a>

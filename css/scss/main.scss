@@ -138,7 +138,7 @@ body {
   box-shadow:       none;
   // background:       rgba(0,0,0,0.7);
   background:       transparent;
-  position:         fixed;
+  position:         absolute;
   width:            100%;
   top:              0;
   border-radius:    0;
@@ -576,7 +576,7 @@ nav {
 /* FOOTER */
 /* FOOTER */
 footer {
-  background:   rgba(0,0,0,0.7);
+  background:   black;
   position:     fixed;
   bottom:       0;
   box-sizing:   border-box;

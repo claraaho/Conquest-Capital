@@ -203,7 +203,7 @@
 
     <nav id="service-nav">
       <ul>
-        <li class="second-nav"><a href="/high-speed-videos"><img src="/img/our_services/highspeed.png" /><p>Video</p></a></li>
+        <li class="second-nav"><a href="/mission-page"><img src="/img/our_services/highspeed.png" /><p>Video</p></a></li>
         <li class="second-nav"><a href="#branding"><img src="/img/our_services/branding.png" /></a><p>Targeted</p></li>
         <li class="second-nav"><a href="#website-consoles"><img src="/img/our_services/website.png" /></a><p>Leads</p></li>
         <li class="second-nav"><a href="#social-media-management"><img src="/img/our_services/solutions.png" /><p>Viral</p></a></li>

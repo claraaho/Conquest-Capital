@@ -15,7 +15,7 @@
     <!-- PAGE LINKS -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li><a class="nav-link" href="/high-speed-videos">MISSION</a></li>
+        <li><a class="nav-link" href="/mission-page">MISSION</a></li>
         <li><a class="nav-link" href="/our-services">SERVICES</a></li>
         <!-- <li><a class="nav-link" href="/our-portfolio">WORK</a></li> -->
         <li><a class="nav-link" href="/our-company">COMPANY</a></li>
