@@ -1,6 +1,6 @@
 <div class="next mission-page">	
 	<?php global $base_url; ?> 
-	<div class="first-block parallax-window" data-parallax="scroll" data-image-src="<?php echo $base_url; ?>/img/conquest/mission-hero-dog-desktop.jpeg">
+	<div class="first-block parallax-window">
 		<div class="hero-overlay"></div>
 	</div>
 	<div class="container-fluid">
@@ -20,7 +20,7 @@
 		<div class="hero-overlay"></div>
 	</div>
 	<div class="container-fluid">
-		<div class="container">
+		<div class="row">
 			<h2>Our Story</h2>
 			<p>At Conquest Capital our goal is to improve the competitive landscape of key industries.  We will accomplish this by acting as a financial catalyst for new profitable and innovative companies.  This will provide these organizations  with the capital they need to grow their operations on a grand scale.  By doing this we will create an inventory of new vehicles for accredited and new investors that will not available to the general public.</p>
 			<p>While most investment funds focus on one or two asset classes, they do not give the client the ability to diversify their portfolios and personalize it to reach their financial goals. The investment funds that do provide these services such as mutual funds, charge huge fees and routinely invest based on the companies that compensate them for the referral.</p>

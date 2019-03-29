@@ -22,15 +22,7 @@
       </ul>
     </div>
   </div>
-    <!-- <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a class="nav-link" href="/about-us"><i class="fa fa-heart-o" aria-hidden="true"></i>DREAM</a></li>
-        <li><a class="nav-link" href="/our-work"><i class="fa fa-lock" aria-hidden="true"></i>BELIEVE</a></li>
-        <li><a class="nav-link" href="/our-company"><i class="fa fa-repeat" aria-hidden="true"></i>PLAY</a></li>
-        <li><a class="nav-link" href="/team"><i class="fa fa-rss" aria-hidden="true"></i>LIVE</a></li>
-      </ul>
-    </div>
-  </div> -->
+  
   <?php 
   if (in_array('solutions',$uri) && !in_array('about-us', $uri)){ ?>
     <div class="sub-navigation container-fluid">

@@ -193,9 +193,13 @@ body {
         #landing-page .learn-wrapper .learn-btn {
           font-size: 2rem; } }
 
+.first-block {
+  height: 100vh;
+  background: black;
+}
+
 .mission-page .first-block {
   background: url('./../img/conquest/mission-hero-dog-mobile.jpg');
-  height: 100vh;
   background-size: cover; 
   background-attachment: fixed;
 }
@@ -223,7 +227,16 @@ body {
 }
 
 .mission-page .container-fluid {
-  padding: 8rem 5rem;
+  padding: 8rem 12rem;
+}
+@media screen and (max-width: 700px) {
+  .mission-page .container-fluid {
+    padding: 8rem 2rem;
+  }
+}
+
+.mission-page .container-fluid .row{
+  margin: inherit;
 }
 
 .mission-page h2 {
@@ -1041,7 +1054,6 @@ nav#service-nav {
     margin-bottom: 6.5rem; }
   .next .service-list {
     display: inline-block;
-    color: white;
     padding: 8rem;
     padding-top: 4rem;
     padding-bottom: 3rem;
@@ -1050,14 +1062,29 @@ nav#service-nav {
     color:      $blue;
     .middot {
     }*/ }
-    .next .service-list img {
-      width: 30%; }
-      @media screen and (max-width: 700px) {
-        .next .service-list img {
-          width: 100%; } }
+
+    .service-list-container {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+              align-items: center;
+    }
+
+    @media screen and (min-width: 1200px) {
+      .service-list-container {
+        -ms-flex-direction: row;
+              flex-direction: row;
+      }
+    }
+
     .next .service-list p {
-      margin-top: 15px;
-      font-family: AvenirNextBold, sans-serif; }
+      margin: 0; }
     .next .service-list .row {
       display: -webkit-box;
       display: -webkit-flex;
@@ -1068,22 +1095,15 @@ nav#service-nav {
       display: flex;
       flex-direction: column; }
     .next .service-list .service-wrapper {
-      margin-bottom: 3rem;
+      margin-bottom: 5rem;
       display: table-cell;
       vertical-align: middle; }
       .next .service-list .service-wrapper a {
         text-decoration: none; }
       .next .service-list .service-wrapper img {
         white-space: pre-wrap; }
-      @media screen and (max-width: 700px) {
-        .next .service-list .service-wrapper .icon-wrapper p {
-          font-size: 1.2rem; } }
-      @media screen and (min-width: 700px) {
-        .next .service-list .service-wrapper {
-          width: 20%;
-          padding: 0; }
-          .next .service-list .service-wrapper .icon-wrapper img {
-            width: 60%; } }
+      @media screen and (max-width: 700px) { }
+      @media screen and (min-width: 700px) {}
     @media screen and (max-width: 700px) {
       .next .service-list {
         padding: 1.5rem; } }
@@ -1770,14 +1790,16 @@ div.arrow-down {
 #branding .small-img-container, #sales-engineering .small-img-container {
   vertical-align: 320%; }
 
+.service-page h2 {
+  margin-bottom: 7rem;
+  margin-top: 5rem;
+}
+
 .service-section {
   padding: 1.2rem 12rem;
   padding-bottom: 0; }
   .service-section a {
     text-decoration: none; }
-  .service-section h2 {
-    font-size: 36px;
-    margin-bottom: 22px; }
   .service-section p {
     font-size: 20px; }
   .service-section img {
@@ -1856,7 +1878,7 @@ h1 {
 .service-images-wrapper {
   margin-bottom: 5.3rem; }
   .service-images-wrapper img {
-    max-width: 100%; }
+    max-width: 100%; } 
 
 .our-services-container p {
   margin-bottom: 2.4rem; }

@@ -118,18 +118,6 @@
       timer = setInterval(showRemaining, 1000);*/
 
     </script>
-    <!-- <div class="countdown-page">
-      <div class="logo">
-        <img src="/img/logo.png">
-      </div>
-      <div id="countdown">LAUNCH INITIATED - WEB CONSOLE COMING SOON</div>
-      <h3> Evoke the Experience </h3>
-      <form name='input' action="/" method='post'>
-        <label for='username'>Username: </label><input type='text' id='username' name='username' /><br/>
-        <label for='password'>Password:&nbsp;</label><input type='password' id='password' name='password' /><br/>
-        <input type='submit' value='Login' name='sub' />    
-      </form>
-    </div> -->
 
       <?php
     //}
