@@ -1,52 +1,55 @@
 <div class="next">
   <div class="container our-services-container">
-    <h1>Our Services</h1>
+    <h1>Our Investment Vehicles</h1>
     <p>
       Welcome to imagin&middot;ere Studios, we connect Brands to their Audience. Click on the following icons<br/> to learn about the corresponding service.
-<!--       74% of all internet traffic in 2017 will be video-based, and that is guaranteed to increase every year.
-      They say that a Brand has only two seconds to establish a connection. Imagin&middot;ere Studios captures that connection each and every time.
- -->    </p>
+    </p>
   </div>
   <div id="icon-main" class="service-list container-fluid">
       <div class="service-wrapper col-xs-4 col-sm-4">
-        <a href="#high-speed-video">
         <div class="icon-wrapper">
-          <img src="/img/our_services/highspeed.png" />
-          <p>HIGH SPEED<br/> VIDEO</p>
+          <img src="/img/conquest/icon_real_estate.png" />
+          <p>Real Estate</p>
+          <p>Consistent</p> 
+          <p>long term investments</p>
+          <p>(1-5 years)</p>
         </div>
-        </a>
       </div>
       <div class="service-wrapper col-xs-4 col-sm-4">
-        <a href="#branding">
         <div class="icon-wrapper">
-          <img src="/img/our_services/branding.png" />
-          <p>TARGETED SALES<br/> VIDEO</p>
+          <img src="/img/conquest/icon_private_placements.png" />
+          <p>Private Placements</p>
+          <p>Profitable</p> 
+          <p>medium term investments</p>
+          <p>(3-24 months)</p>
         </div>
-        </a>
       </div>
       <div class="service-wrapper col-xs-4 col-sm-4">
-        <a href="#website-consoles">
         <div class="icon-wrapper">
-          <img src="/img/our_services/website.png" />
-          <p>LEAD GENERATION <br/> VIDEO</p>
+          <img src="/img/conquest/icon_trading_algorithms.png" />
+          <p>Trading Algorithms</p>
+          <p>Consistent</p> 
+          <p>short term investments</p>
+          <p>Monthly profits</p>
         </div>
-        </a>
       </div>
       <div class="service-wrapper col-xs-6 col-sm-4">
-        <a href="#social-media-management">
         <div class="icon-wrapper">
-          <img src="/img/our_services/solutions.png" />
-          <p>VIRAL CONCEPT<br/> VIDEO</p>
+          <img src="/img/conquest/icon_manual_trading.png" />
+          <p>Manual Trading</p>
+          <p>Profit</p> 
+          <p>margin and timeline varies</p>
+          <p>Weekly profits</p>
         </div>
-        </a>
       </div>
       <div class="service-wrapper col-xs-6 col-sm-4">
-        <a href="#media-buy">
         <div class="icon-wrapper">
-          <img src="/img/our_services/sales.png" />
-          <p>ADVERTISING &amp; <br/> MEDIA BUYING</p>
+          <img src="/img/conquest/icon_venture_capital.png" />
+          <p>Venture Capital</p>
+          <p>Riskiest</p> 
+          <p>investment class with high potential</p>
+          <p>(1-10 years)</p>
         </div>
-        </a>
       </div>
     </div>
     <a href="/our-company">
