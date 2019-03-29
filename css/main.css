@@ -194,17 +194,32 @@ body {
           font-size: 2rem; } }
 
 .mission-page .first-block {
-  background: url('./../img/conquest/mission-hero-min.jpeg');
+  background: url('./../img/conquest/mission-hero-dog-mobile.jpg');
   height: 100vh;
   background-size: cover; 
   background-attachment: fixed;
 }
 
+@media (min-width: 700px) {
+  .mission-page .first-block {
+    background: url('./../img/conquest/mission-hero-dog-tablet.jpg');
+    background-size: cover; 
+    background-attachment: fixed;
+  }
+}
+
+@media (min-width: 1000px) {
+  .mission-page .first-block {
+    background: url('./../img/conquest/mission-hero-dog-desktop.jpeg');
+    background-size: cover; 
+    background-attachment: fixed;
+  }
+}
+
 .mission-page .second-block {
-  background: url('./../img/conquest/mission-skyline-min.jpg');
-  height: 600px;
+  background: url('./../img/conquest/mission-skyline-min.jpg') fixed;
+  height: 400px;
   background-size: cover; 
-  background-attachment: fixed;
 }
 
 .mission-page .container-fluid {
@@ -229,7 +244,7 @@ body {
 
 .hero-overlay {
   background: rgba(0, 0, 0, 0.5);
-  background: linear-gradient(black, 99.5%, white);
+  background: linear-gradient(white, 2%, black);
   width: 100%;
   height: 100%;
   opacity: 0.2;
@@ -339,14 +354,14 @@ body {
     margin-top: 36px;
     margin-right: 27px; }
   @media (min-width: 700px) and (max-width: 1200px) {
-    .navbar-default .navbar-collapse.collapse {
-      display: none !important; }
+    /* .navbar-default .navbar-collapse.collapse {
+      display: none !important; } */
     .navbar-default .navbar-collapse.collapse.in {
       display: block !important; }
-    .navbar-default .navbar-header .collapse, .navbar-default .navbar-toggle {
-      display: block !important;}
+    /* .navbar-default .navbar-header .collapse, .navbar-default .navbar-toggle {
+      display: block !important;} */
     .navbar-default .navbar-header {
-      float: none;
+      /* float: none; */
       min-height: 65px; } }
   .navbar-default .navbar-nav > li > a {
     color: white;
@@ -404,6 +419,11 @@ body {
         left: -15px;
         right: 0;
         top: 17px; } }
+
+.in, .collapsing {
+  margin-top: 2rem;
+  background: rgba(0,0,0,0.9);
+}
 
 .navbar-brand {
   color: #C2C2C4 !important;
@@ -1361,7 +1381,7 @@ nav#service-nav {
       padding-top: 100px; } }
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-  background-color: rgba(255, 255, 255, 0.15); }
+  background-color: initial; }
 
 /* #call-to-action {
   position:       fixed;
@@ -2543,4 +2563,5 @@ svg .icon {
 
 .navbar-nav {
   margin-top: 2.5rem;
+  margin-right: 0;
 }

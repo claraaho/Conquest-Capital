@@ -3,7 +3,7 @@
 /* VARIABLES */
 $blue:      #15669C;
 $break-sm:  480px;
-$break-md:  768px;
+$break-md:  700px;
 $break-lg:  1600px;
 
 /* MIXINS */
@@ -228,7 +228,7 @@ nav {
 @media screen and (min-width: 701px) {
   .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
     margin-left: 24px; } }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 700px) {
   .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
     margin-left:    0;
   }

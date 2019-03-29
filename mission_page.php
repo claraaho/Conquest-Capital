@@ -1,5 +1,6 @@
 <div class="next mission-page">	
-	<div class="first-block">
+	<?php global $base_url; ?> 
+	<div class="first-block parallax-window" data-parallax="scroll" data-image-src="<?php echo $base_url; ?>/img/conquest/mission-hero-dog-desktop.jpeg">
 		<div class="hero-overlay"></div>
 	</div>
 	<div class="container-fluid">
