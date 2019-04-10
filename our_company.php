@@ -1,103 +1,50 @@
 <div class="next our-company-page">
-  <!-- <div class="container our-company-container">
-    <h1>imagin&middot; the possibilities...</h1>
-    <p>imagin&middot; an advertising firm that fused brand new technologies with psychological marketing to optimize a brand.</p>
-    <a href="#contact-us-now">
-    <div class="high-speed-btn">
-      Request Consultation <i class="fa fa-angle-right" aria-hidden="true"></i>
-    </div>
-    </a>
-  </div> -->
   <div class="blue-splash container-fluid">
+    <h2>The Company</h2>
     <div class="our-company-grid">
-      <div class="person-wrapper col-xs-4">
+      <div class="person-wrapper col-xs-12">
         <div class="headshot-wrapper">
-          <img src="/img/company/jr3.jpg" />
+          <img src="/img/conquest/headshot-connor.JPG" />
         </div>
-        <h3 class="name">JERMAINE LOPEZ</h3>
-        <h4 class="title">CREATIVE DIRECTOR / FOUNDER</h4>
-        <div class="sm">
-          <a href='mailto:***REMOVED***' class='fa fa-envelope-square'></a>
-          <a href='https://ca.linkedin.com/in/j-r-lopez-57b9b561' class='fa fa-linkedin-square'></a>
+        <h3 class="name">Connor Yuen</h3>
+        <h4 class="title">Managing Partner</h4>
+      </div>
+      <div class="person-wrapper col-xs-12">
+        <div class="headshot-wrapper">
+          <img src="/img/conquest/headshot-alson.jpg" />
+        </div>
+        <h3 class="name">Alson Niu</h3>
+        <h4 class="title">Managing Partner</h4>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid blue-splash partners-container">
+    <h2>Our Partners</h2>
+    <div class="col-xs-12 col-sm-4 partners-item">
+      <div class="partners-wrapper">
+        <div class="logo-wrapper">
+          <a href="https://tracerdigital.ca/">
+            <img src="/img/conquest/logo-tracerdigital.png" />
+          </a>
         </div>
       </div>
-      <div class="person-wrapper col-xs-4">
-        <div class="headshot-wrapper">
-          <img src="/img/company/pouria.jpg" />
-        </div>
-        <h3 class="name">POURIA ASSADIPOUR</h3>
-        <h4 class="title">LEAD WEB DEVELOPER</h4>
-        <div class="sm">
-          <a href='mailto:***REMOVED***' class='fa fa-envelope-square'></a>
-          <a href='https://www.linkedin.com/in/pouria-assadipour-66884350' class='fa fa-linkedin-square'></a>
+    </div>
+    <div class="col-xs-12 col-sm-4 partners-item">
+      <div class="partners-wrapper">
+        <div class="logo-wrapper">
+          <a href="https://evolvebranding.ca/">
+            <img src="/img/conquest/logo-evolve.png" />
+          </a>
         </div>
       </div>
-      <div class="person-wrapper col-xs-4">
-        <div class="headshot-wrapper">
-          <img src="/img/company/elise2.jpg" />
+    </div>
+    <div class="col-xs-12 col-sm-4 partners-item">
+      <div class="partners-wrapper">
+        <div class="logo-wrapper">
+          <a href="https://agea-bc.ca/">
+            <img src="/img/conquest/logo-agea.png" />
+          </a>
         </div>
-        <h3 class="name">ELISE McNEILL</h3>
-        <h4 class="title">BRAND TECHNOLOGIST</h4>
-        <div class="sm">
-          <a href='https://www.linkedin.com/in/elisemcneill' class='fa fa-linkedin-square'></a>
-        </div>
-      </div>
-      <div class="person-wrapper col-xs-4">
-        <div class="headshot-wrapper">
-          <img src="/img/company/sandy-lopez.jpg" />
-        </div>
-        <h3 class="name">SANDY LOPEZ</h3>
-        <h4 class="title">ADMIN</h4>
-        <div class="sm">
-        </div>
-      </div>
-      <div class="person-wrapper col-xs-4">
-        <div class="headshot-wrapper">
-          <img src="/img/company/ketan.jpg" />
-        </div>
-        <h3 class="name">KETAN JOGIA</h3>
-        <h4 class="title">DIRECTOR OF SOUND</h4>
-        <div class="sm">
-        </div>
-      </div>
-      <div class="person-wrapper col-xs-4">
-        <div class="headshot-wrapper">
-          <img src="/img/company/shawn-kambo.jpg" />
-        </div>
-        <h3 class="name">SHAWN KAMBO</h3>
-        <h4 class="title">HUMAN RESOURCES</h4>
-      </div>
-      <div class="person-wrapper col-xs-4">
-        <div class="headshot-wrapper">
-          <img src="/img/company/paulo.jpg" />
-        </div>
-        <h3 class="name">PAULO AGELIDIS</h3>
-        <h4 class="title">PARTNER</h4>
-        <div class="sm">
-        </div>
-      </div>
-      <div class="person-wrapper col-xs-4">
-        <div class="headshot-wrapper">
-          <img src="/img/company/leviswanky.jpg" />
-        </div>
-        <h3 class="name">LEVI SWANKY</h3>
-        <h4 class="title">TRANSPORTATION</h4>
-        <div class="sm">
-        </div>
-      </div>
-      <div class="person-wrapper col-xs-4">
-        <div class="headshot-wrapper">
-          <img src="/img/company/doug.jpg" />
-        </div>
-        <h3 class="name">DOUG SHORTT</h3>
-        <h4 class="title">SEARCH MARKETING CONSULTANT</h4>
-      </div>
-      <div class="person-wrapper col-xs-4">
-        <div class="headshot-wrapper">
-          <img src="/img/company/dean.jpg" />
-        </div>
-        <h3 class="name">DEAN OSMON</h3>
-        <h4 class="title">CASTING DIRECTOR</h4>
       </div>
     </div>
   </div>

@@ -285,10 +285,11 @@ if (!window.location.pathname.substr(1)) {
   $("#contact-bar").remove();
   $("nav.navbar").css("background", "rgba(0,0,0,0.95)");
   $("html").css("overflow", "hidden");
-} else if (window.location.pathname.substr(1) == "our-company") {
-  navHeight = $( "nav" ).outerHeight();
-  $(".our-company-page").css("padding-top", navHeight);
-}
+} 
+// else if (window.location.pathname.substr(1) == "our-company") {
+//   navHeight = $( "nav" ).outerHeight();
+//   $(".our-company-page").css("padding-top", navHeight);
+// }
 
 
 
