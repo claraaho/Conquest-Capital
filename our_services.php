@@ -1,4 +1,4 @@
-<div class="next service-page">
+<div class="next services-page">
 
   <div class="first-block parallax-window">
 		<div class="hero-overlay"></div>

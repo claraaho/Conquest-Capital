@@ -255,6 +255,12 @@ body {
   font-size: 1.5rem;
 }
 
+.services-page .first-block {
+  background: url('./../img/conquest/services-hero-min.jpg');
+  background-size: cover; 
+  background-attachment: fixed;
+}
+
 .hero-overlay {
   background: rgba(0, 0, 0, 0.5);
   background: linear-gradient(white, 2%, black);
@@ -410,12 +416,7 @@ body {
   .navbar-default li:last-of-type .nav-link {
     padding-right: 0; }
   .navbar-default .container-fluid:first-of-type {
-    padding-left: 53px;
-    padding-right: 53px; }
-    @media screen and (max-width: 1200px) {
-      .navbar-default .container-fluid:first-of-type {
-        padding-left: 5px;
-        padding-right: 5px; } }
+     }
     .navbar-default .navbar-brand img {
       width: 298px;
       margin-top: -4px; }
@@ -1790,7 +1791,7 @@ div.arrow-down {
 #branding .small-img-container, #sales-engineering .small-img-container {
   vertical-align: 320%; }
 
-.service-page h2 {
+.services-page h2 {
   margin-bottom: 7rem;
   margin-top: 5rem;
 }
@@ -2585,5 +2586,9 @@ svg .icon {
 
 .navbar-nav {
   margin-top: 2.5rem;
-  margin-right: 0;
+  margin-right: 15px;
+}
+
+.container-fluid>.navbar-header {
+  margin-left: 15px;
 }
