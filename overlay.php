@@ -1,3 +1,3 @@
 <footer id="contact-us-now" class="container-fluid">
-  <p>Innovate Conquer Prosper</p>
+  <p>The Future is in Your Hands</p>
 </footer>
