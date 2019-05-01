@@ -173,9 +173,10 @@ body {
     @media (max-width: 700px) {
       #landing-page .learn-wrapper {
         margin: 0;
-        bottom: 79px;
+        bottom: 0;
         left: 0;
         right: 0;
+        z-index: 99;
         margin-left: auto;
         margin-right: auto;
         font-size: 2.4rem;
@@ -221,7 +222,7 @@ body {
 }
 
 .mission-page .second-block {
-  background: url('./../img/conquest/mission-skyline-min.jpg') fixed;
+  background: url('./../img/conquest/mission-astronomy-min.jpg') fixed;
   height: 400px;
   background-size: cover; 
 }
@@ -1064,24 +1065,14 @@ nav#service-nav {
     .middot {
     }*/ }
 
-    .service-list-container {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-              flex-direction: column;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-              align-items: center;
+    .icon-wrapper {
+      height: 150px;
     }
 
-    @media screen and (min-width: 1200px) {
-      .service-list-container {
-        -ms-flex-direction: row;
-              flex-direction: row;
-      }
+    .icon-wrapper img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
     }
 
     .next .service-list p {
@@ -1480,7 +1471,7 @@ nav#service-nav {
 /* FOOTER */
 /* FOOTER */
 footer {
-  background: black;
+  background: transparent;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   display: -webkit-box;
@@ -1497,7 +1488,6 @@ footer {
   font-family: AvenirNextDemi, sans-serif;
   color: white;
   font-size: 2.6rem;
-  border-top: 1px solid #FFF;
   border-left: 0;
   border-right: 0;
   letter-spacing: 1px;
@@ -1506,7 +1496,7 @@ footer {
   -o-transition: all 250ms linear 0s;
   transition: all 250ms linear 0s; }
   footer:hover {
-    background: black;
+    background: transparent;
     /* glow effect on hover */
     /* box-shadow: -1px 1px 15px $blue, 1px -1px 15px $blue; */
     -webkit-transition: all 250ms linear 0s;
@@ -2648,11 +2638,11 @@ svg .icon {
 /* Conquest Homepage */
 
 .home-hero-vid {
-  object-fit: fill;
   width: 100%;
   height: 100vh;
   position: absolute;
-  top: 0px;
+  top: 0;
+  object-fit: cover;
 }
 
 .navbar-nav {

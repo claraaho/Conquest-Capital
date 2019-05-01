@@ -14,52 +14,36 @@
   <div id="icon-main" class="service-list container-fluid">
     <h2>Our Investment Vehicles</h2>
     <div class="service-list-container">
-      <div class="service-wrapper col-xs-10">
+      <div class="service-wrapper col-md-2 col-sm-6 col-xs-12 col-md-offset-1 col-sm-offset-0">
         <div class="icon-wrapper">
-          <img src="/img/conquest/icon_real_estate.png" />
-          <h3>Real Estate</h3>
-          <p>Consistent</p> 
-          <p>long term investments</p>
-          <p>(1-5 years)</p>
+          <img src="/img/conquest/icon-real-estate.svg" />
         </div>
+        <h3>Real Estate</h3>
       </div>
-      <div class="service-wrapper col-xs-10">
+      <div class="service-wrapper col-md-2 col-sm-6 col-xs-12">
         <div class="icon-wrapper">
-          <img src="/img/conquest/icon_private_placements.png" />
-          <h3>Private Placements</h3>
-          <p>Profitable</p> 
-          <p>medium term investments</p>
-          <p>(3-24 months)</p>
+          <img src="/img/conquest/icon-private-placements.svg" />
         </div>
+        <h3>Private Placements</h3>
       </div>
-      <div class="service-wrapper col-xs-10">
+      <div class="service-wrapper col-md-2 col-sm-6 col-xs-12">
         <div class="icon-wrapper">
-          <img src="/img/conquest/icon_trading_algorithms.png" />
-          <h3>Trading Algorithms</h3>
-          <p>Consistent</p> 
-          <p>short term investments</p>
-          <p>Monthly profits</p>
+          <img src="/img/conquest/icon-trading-algorithms.svg" />
         </div>
+        <h3>Trading Algorithms</h3>
       </div>
-      <div class="service-wrapper col-xs-10">
+      <div class="service-wrapper col-md-2 col-sm-6 col-xs-12">
         <div class="icon-wrapper">
-          <img src="/img/conquest/icon_manual_trading.png" />
-          <h3>Manual Trading</h3>
-          <p>Profit</p> 
-          <p>margin and timeline varies</p>
-          <p>Weekly profits</p>
+          <img src="/img/conquest/icon-manual-trading.svg" />
         </div>
+        <h3>Manual Trading</h3>
       </div>
-      <div class="service-wrapper col-xs-10">
+      <div class="service-wrapper col-md-2 col-sm-6 col-xs-12">
         <div class="icon-wrapper">
-          <img src="/img/conquest/icon_venture_capital.png" />
-          <h3>Venture Capital</h3>
-          <p>Riskiest</p> 
-          <p>investment class with high potential</p>
-          <p>(1-10 years)</p>
+          <img src="/img/conquest/icon-venture-capital.svg" />
         </div>
+        <h3>Venture Capital</h3>
       </div>
     </div>
   </div>
-
 </div>

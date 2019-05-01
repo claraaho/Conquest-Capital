@@ -9,7 +9,7 @@
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="/">
-        <img src="/img/logo-black1.png">
+        <img src="/img/conquest/logo-black1.png">
       </a>
     </div>
     <!-- PAGE LINKS -->
