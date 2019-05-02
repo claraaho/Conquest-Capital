@@ -6,9 +6,18 @@
 
   <div id="social-media-management" class="container-fluid service-section">
     <h2>What We Offer</h2>
-    <p>Conquest Capital is a multi-asset holding company which offers investment opportunities to a broad number of asset classes, providing our clients with a level of diversification typically not offered by other investment companies.</p>
-    <p>Conquest Capital provides a very hands-off experience for our clients. By conducting a thorough due diligence process on new investment opportunities, as well as provide live feedback and action plans for how their current portfolios are doing.</p>
-    <p>Conquest Capital offers exclusive investment opportunities not available to the public from years of well-established relationships with business owners and investment funds around the world.</p>
+    <div class="offer-wrapper">
+      <p class="offer-numbering">1</p>
+      <p class="offer-info">Conquest Capital is a multi-asset holding company which offers investment opportunities to a broad number of asset classes, providing our clients with a level of diversification typically not offered by other investment companies.</p>
+    </div>
+    <div class="offer-wrapper">
+      <p class="offer-numbering">2</p>
+      <p class="offer-info">Conquest Capital provides a very hands-off experience for our clients. By conducting a thorough due diligence process on new investment opportunities, as well as provide live feedback and action plans for how their current portfolios are doing.</p>
+    </div>
+    <div class="offer-wrapper">
+      <p class="offer-numbering">3</p>
+      <p class="offer-info">Conquest Capital offers exclusive investment opportunities not available to the public from years of well-established relationships with business owners and investment funds around the world.</p>
+    </div>
   </div>
 
   <div id="icon-main" class="service-list container-fluid">

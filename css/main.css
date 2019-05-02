@@ -1788,7 +1788,8 @@ div.arrow-down {
 
 .service-section {
   padding: 1.2rem 12rem;
-  padding-bottom: 0; }
+  padding-bottom: 0;
+  max-width: 1200px; }
   .service-section a {
     text-decoration: none; }
   .service-section p {
@@ -1860,6 +1861,43 @@ div.arrow-down {
         margin-right: 0; }
       .service-section .images .ipad-iphone {
         width: 100%; } }
+
+.service-section .offer-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+          flex-direction: row;
+  margin-bottom: 6rem;
+}
+
+.service-section .offer-numbering {
+  margin-right: 5rem;
+  font-size: 3rem;
+  align-self: center;
+}
+
+@media screen and (max-width: 700px) {
+  .service-section .offer-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .service-section .offer-numbering {
+    margin-right: 0;
+  }
+}
+
+.offer-info {
+  text-align: justify;
+}
 
 h1 {
   color: white;
