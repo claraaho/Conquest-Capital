@@ -199,7 +199,7 @@ body {
   background: black;
 }
 
-.mission-page .first-block {
+/* .mission-page .first-block {
   background: url('./../img/conquest/mission-hero-dog-mobile.jpg');
   background-size: cover; 
   background-attachment: fixed;
@@ -219,7 +219,7 @@ body {
     background-size: cover; 
     background-attachment: fixed;
   }
-}
+} */
 
 .mission-page .second-block {
   background: url('./../img/conquest/mission-astronomy-min.jpg') fixed;
@@ -244,16 +244,31 @@ body {
   margin-bottom: 5rem;
 }
 
-.mission-page p {
-  margin-bottom: 2rem;
-}
-
 .mission-page ul {
   text-align: left;
   width: 80%;
   margin: 0 auto;
   margin-bottom: 3rem;
-  font-size: 1.5rem;
+  font-size: 20px;
+}
+
+.mission-page p, .mission-page ul {
+  text-align: justify;
+  margin-bottom: 6rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .mission-page ul {
+    font-size:  1.7rem;
+  }
+
+  .mission-page p, .mission-page ul {
+    margin-bottom: 4rem;
+  }
+}
+
+.mission-page ul li {
+  margin-bottom: 4rem;
 }
 
 .services-page .first-block {
@@ -1049,8 +1064,7 @@ nav#service-nav {
   .next p {
     font-family: AvenirNextUltraLight, sans-serif;
     line-height: 180%;
-    font-size: 20px;
-    margin-bottom: 0.9rem;}
+    font-size: 20px;}
   .next .about-us-grid {
     margin-top: -7px;
     margin-bottom: 6.5rem; }
@@ -1792,8 +1806,6 @@ div.arrow-down {
   max-width: 1200px; }
   .service-section a {
     text-decoration: none; }
-  .service-section p {
-    font-size: 20px; }
   .service-section img {
     max-width: 100%; }
   .service-section .high-speed-btn {
@@ -2160,10 +2172,13 @@ display: flex;
       .our-company-grid .person-wrapper .title {
         font-size: 14px;
         font-family: AvenirNextMedium, sans-serif; } }
-        
+
+.partners-container {
+  padding-bottom: 9rem;
+}        
+
 @media screen and (min-width: 1200px) {
   .partners-container {
-    padding-bottom: 9rem;
     padding-left: 9rem;
     padding-right: 9rem;
   }

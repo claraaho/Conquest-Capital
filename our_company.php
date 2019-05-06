@@ -11,7 +11,7 @@
       </div>
       <div class="person-wrapper col-xs-12">
         <div class="headshot-wrapper">
-          <img src="/img/conquest/headshot-alson.jpg" />
+          <img src="/img/conquest/headshot-alson.jpeg" />
         </div>
         <h3 class="name">Alson Niu</h3>
         <h4 class="title">Managing Partner</h4>
