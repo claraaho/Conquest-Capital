@@ -222,37 +222,37 @@ if (!window.location.pathname.substr(1)) {
   // Function to control what happens when each link is clicked
   function setupLinks() {
           
-      $("#landing-page").click(function () {
-          player_1.api('play'); //Play the video
-          var randInt = getRandomInt(1,5);
-          player_1.api('seekTo', seekArray[randInt]); //Seek to the number of seconds 
+      // $("#landing-page").click(function () {
+      //     player_1.api('play'); //Play the video
+      //     var randInt = getRandomInt(1,5);
+      //     player_1.api('seekTo', seekArray[randInt]); //Seek to the number of seconds 
 
-          /*player_1.api('getCurrentTime', function(value, player_1){
-            curr = value;
-          });
+      //     /*player_1.api('getCurrentTime', function(value, player_1){
+      //       curr = value;
+      //     });
           
-          var i;
-          for ( i = 0 ; i < seekArray.length ; i++){
-            if (seekArray[i] >= curr) {
-              console.log("curr ", curr);
-              console.log("seek ", seekArray[i]);
-              player_1.api('seekTo', seekArray[i]); //Seek to the number of seconds 
-              break;
-            }
-          }*/
-      });
+      //     var i;
+      //     for ( i = 0 ; i < seekArray.length ; i++){
+      //       if (seekArray[i] >= curr) {
+      //         console.log("curr ", curr);
+      //         console.log("seek ", seekArray[i]);
+      //         player_1.api('seekTo', seekArray[i]); //Seek to the number of seconds 
+      //         break;
+      //       }
+      //     }*/
+      // });
   }
 
-  setupLinks();
+  // setupLinks();
   var src = $("#homevideo").data('src');
   // Hide video on mobile
-  if (window.matchMedia("(min-width: 700px)").matches) {
-    $("#homevideo").attr('src', src);
-  }else{
-    var num = getRandomInt(1,4);
-    $("body").css({"background": "url('/img/evolve_"+num+".jpg')"});
-    $("#homevideo").css('display', 'none');
-  }
+  // if (window.matchMedia("(min-width: 700px)").matches) {
+  //   $("#homevideo").attr('src', src);
+  // }else{
+  //   var num = getRandomInt(1,4);
+  //   $("body").css({"background": "url('/img/evolve_"+num+".jpg')"});
+  //   $("#homevideo").css('display', 'none');
+  // }
 
 
 } else if(window.location.pathname.substr(1) == "our-services") {

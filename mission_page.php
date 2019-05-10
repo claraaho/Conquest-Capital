@@ -15,7 +15,7 @@ $link .= $_SERVER['HTTP_HOST'];
 
 <div class="next mission-page">	
 	<?php global $base_url; ?> 
-	<div class="first-block parallax-window data-parallax="scroll" data-image-src="<?php echo $link;?>/img/conquest/mission-hero-dog-desktop.jpeg">
+	<div class="first-block">
 		<div class="hero-overlay"></div>
 	</div>
 	<div class="container-fluid">

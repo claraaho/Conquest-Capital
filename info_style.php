@@ -38,7 +38,6 @@
   <div class="section-container">
     <section id="third" class="info-wrapper col-xs-12 pic-wrapper">
       <h2>This is an Image-styled section</h2>
-      <img src="/img/evolve_1.jpg"/>
     </section>
   </div>
 </div>
