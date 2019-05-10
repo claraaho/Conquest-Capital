@@ -31,8 +31,8 @@ $mail->addReplyTo($from, $name);
 
 $mail->isHTML(true); 
 
-$mail->Subject = '[Website Message]';
-$body = $message . "<br/><br/>Name: ". $name ."<br/>Email: ". $from ."<i> Company: " . $company . "<br/>Tel: ". $tel ."<br/>subscribe? ".$subscribe . "</i>";
+$mail->Subject = 'Conquest Capital Consultation Request';
+$body = $message . "<br/><br/>Name: ". $name ."<br/>Email: ". $from ."<br/><i> Company: " . $company . "<br/>Tel: ". $tel ."<br/>subscribe? ".$subscribe . "</i>";
 $mail->Body    = $body;
 
 if(!$mail->send()) {
