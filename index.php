@@ -4,10 +4,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:url"         content="http://www.imaginerestudios.com" />
+    <meta property="og:url"         content="https://conquestvc.com/" />
     <meta property="og:type"        content="website" />
-    <meta property="og:title"       content="Imagin&middot;ere Studios" />
-    <meta property="og:description" content="Corporate Films, Marketing and Advertising." />
+    <meta property="og:title"       content="Conquest Capital" />
+    <meta property="og:description" content="Investment Consultation." />
     <meta property="og:image"       content="http://www.imaginerestudios.com/og-pic.png" />
     
     <!-- Android theme colour -->

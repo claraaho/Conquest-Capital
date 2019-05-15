@@ -1,20 +1,4 @@
-<?php 
-// Program to display URL of current page. 
-  
-if(isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on') 
-    $link = "https"; 
-else
-    $link = "http"; 
-  
-// Here append the common URL characters. 
-$link .= "://"; 
-  
-// Append the host(domain name, ip) to the URL. 
-$link .= $_SERVER['HTTP_HOST']; 
-?> 
-
 <div class="next mission-page">	
-	<?php global $base_url; ?> 
 	<div class="first-block">
 		<div class="hero-overlay"></div>
 	</div>
