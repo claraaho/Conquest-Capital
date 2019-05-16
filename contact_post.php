@@ -1,7 +1,7 @@
 <?php
 if(isset($_POST['email'])) {
  
-    $email_to = "***REMOVED***";
+    $email_to = "passadipour@imaginerestudios.com";
  
     $email_subject = "Imaginere Contact Form";
  

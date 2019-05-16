@@ -9,7 +9,7 @@ class User
 {
   private function dbLink()
   {
-    $link = new mysqli("", "imagkvjl_pouria", "***REMOVED***", "imagkvjl_test_iugo");
+    $link = new mysqli("", "imagkvjl_pouria", "bionicaL12!", "imagkvjl_test_iugo");
 
     return $link;
   }
