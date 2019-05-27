@@ -8,7 +8,7 @@
     <meta property="og:type"        content="website" />
     <meta property="og:title"       content="Conquest Capital" />
     <meta property="og:description" content="Investment Consultation." />
-    <meta property="og:image"       content="http://www.imaginerestudios.com/og-pic.png" />
+    <meta property="og:image"       content="https://conquestvc.com/img/conquest/conquest_og.png" />
     
     <!-- Android theme colour -->
     <meta name="theme-color" content="#1589C4">
